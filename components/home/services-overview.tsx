@@ -6,44 +6,44 @@ const services = [
   {
     icon: (
       <Image
-        src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=100&h=100&fit=crop&crop=faces&auto=format&q=60"
-        alt="Hairstyling"
-        width={32}
-        height={32}
+        src="https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/AI-v0FpFAgjB8RJUgkwpFhTpgVLRWpDVu.png"
+        alt="ai"
+        width={50}
+        height={50}
         className="rounded-full object-cover"
       />
     ),
-    title: "Expert Haircuts & Styling",
-    description: "Precision cuts and trendsetting styles for all hair types.",
-    link: "/services#hair",
+    title: "AI Strategy & Consulting",
+    description: "Transform your business with cutting-edge AI solutions tailored to your needs.",
+    link: "/services#aistrategy",
   },
   {
     icon: (
       <Image
-        src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=100&h=100&fit=crop&crop=faces&auto=format&q=60"
-        alt="Nail Art"
-        width={32}
-        height={32}
+        src="https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/software-SKSgapC6xMeKg99AWI8UEuV34kUfmY.webp"
+        alt="software"
+        width={50}
+        height={50}
         className="rounded-full object-cover"
       />
     ),
-    title: "Nail Art & Care",
-    description: "Express yourself with our creative nail designs and treatments.",
-    link: "/services#nails",
+    title: "Custom Software Development",
+    description: "Build scalable and efficient software solutions that drive your business forward.",
+    link: "/services#software",
   },
   {
     icon: (
       <Image
-        src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=100&h=100&fit=crop&crop=faces&auto=format&q=60"
-        alt="Makeup"
-        width={32}
-        height={32}
+        src="https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/cloud-of4M2ZFhwv3Zw2bumonf4I8QxlSCqO.png"
+        alt="cloud"
+        width={50}
+        height={50}
         className="rounded-full object-cover"
       />
     ),
-    title: "Makeup & Skincare",
-    description: "Enhance your natural beauty with our expert makeup and skincare services.",
-    link: "/services#beauty",
+    title: "Cloud Solutions",
+    description: "Leverage the power of cloud computing for enhanced scalability and performance.",
+    link: "/services#cloud",
   },
 ]
 
@@ -52,9 +52,9 @@ export default function ServicesOverview() {
     <section className="section-padding bg-studio-black">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="heading-lg mb-4 text-white font-playfair">Our Premium Services</h2>
+          <h2 className="heading-lg mb-4 text-white font-playfair">Our Services</h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Indulge in our wide range of luxury beauty treatments, tailored to enhance your unique style.
+            Comprehensive technology solutions tailored to drive your business forward
           </p>
         </div>
 

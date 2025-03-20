@@ -31,29 +31,24 @@ export default function HeroSection() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-          <Button
-  asChild
-  size="lg"
-  className="relative overflow-hidden text-lg px-8 py-6 bg-studio-gold text-studio-black hover:bg-studio-gold-light rounded-md 
-             shadow-[0_0_15px_rgba(212,175,55,0.5)] group transition-all duration-300 
-             animate-slow-pulse hover:animate-none"
->
-  <Link href="/booking" className="relative flex items-center justify-center">
-    {/* Shine Effect */}
-    <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent 
-                    w-full h-full animate-shine pointer-events-none" />
-
-    {/* Button Text & Icon */}
-    <span className="relative z-10 flex items-center">
-      Book Your Appointment
-      <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-    </span>
-  </Link>
-</Button>
-
-
-
-
+            <Button
+              asChild
+              size="lg"
+              className="relative overflow-hidden text-lg px-8 py-6 bg-studio-gold text-studio-black hover:bg-studio-gold-light rounded-md 
+                        shadow-[0_0_15px_rgba(212,175,55,0.5)] group transition-all duration-300 
+                        animate-slow-pulse hover:animate-none"
+            >
+              <Link href="/booking" className="relative flex items-center justify-center">
+                {/* Shine Effect */}
+                <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent 
+                                w-full h-full animate-shine pointer-events-none" />
+                {/* Button Text & Icon */}
+                <span className="relative z-10 flex items-center">
+                  Book Your Appointment
+                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                </span>
+              </Link>
+            </Button>
             <Button
               asChild
               variant="outline"
