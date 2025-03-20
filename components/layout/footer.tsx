@@ -57,11 +57,11 @@ export default function Footer() {
                   Our Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/gallery" className="text-gray-400 hover:text-studio-gold transition-colors">
                   Gallery
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/about" className="text-gray-400 hover:text-studio-gold transition-colors">
                   About Us
