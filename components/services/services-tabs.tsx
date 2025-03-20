@@ -145,15 +145,15 @@ export default function ServicesTabs() {
             </TabsTrigger>
             <TabsTrigger value="men" className="flex items-center gap-2">
               <Male className="h-4 w-4" />
-              <span>Men's</span>
+              <span>AI</span>
             </TabsTrigger>
             <TabsTrigger value="women" className="flex items-center gap-2">
               <Female className="h-4 w-4" />
-              <span>Women's</span>
+              <span>Software</span>
             </TabsTrigger>
             <TabsTrigger value="unisex" className="flex items-center gap-2">
               <Users className="h-4 w-4" />
-              <span>Unisex</span>
+              <span>Cloud</span>
             </TabsTrigger>
           </TabsList>
         </div>

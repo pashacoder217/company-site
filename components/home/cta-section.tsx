@@ -6,14 +6,14 @@ export default function CTASection() {
   return (
     <section className="py-20 bg-gradient-to-br from-gray-950 to-studio-black relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none opacity-5">
-        <div className="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-03-08%20at%203.46.21%E2%80%AFAM-C4qZeZt6eeSoHm4avjGUnl9JoyPoKP.png')] bg-repeat bg-[length:200px_200px]"></div>
+        <div className="absolute inset-0 bg-contain bg-[url('https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/images-SYRRkFK1583UBk8HD6kz6MHtIC9fK5.jpg')] bg-no-repeat bg-[length:200px_200px]"></div>
       </div>
 
       <div className="container-custom relative z-10">
         <div className="text-center mb-12">
           <h2 className="heading-lg mb-6 text-white font-playfair">Our Locations</h2>
           <p className="text-gray-400 max-w-2xl mx-auto mb-8 text-lg">
-            Visit us at one of our convenient locations across Mumbai. Each salon offers our full range of premium
+            Visit us at one of our convenient locations across Miami. We offer our full range of premium
             services.
           </p>
         </div>

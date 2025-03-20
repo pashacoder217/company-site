@@ -30,9 +30,9 @@ export default function WhyChooseUsSection() {
     <section className="section-padding bg-gray-950">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="heading-lg mb-4 text-white font-playfair">Why Choose Studio 39?</h2>
+          <h2 className="heading-lg mb-4 text-white font-playfair">Why Choose AlfaHive?</h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Experience the difference with our commitment to excellence, luxury, and personalized care.
+          With a proven track record in AI, cloud, and software development, Alfahive transforms businesses with cutting-edge technology, driving innovation, efficiency, and unstoppable growth.
           </p>
         </div>
 
