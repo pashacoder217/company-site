@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 41 100% 50%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 0%;
+    --secondary-foreground: 41 100% 50%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+
+    --accent: 41 100% 94%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 41 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 41 100% 50%;
+
+    --card: 0 0% 0%;
+    --card-foreground: 41 100% 50%;
+
+    --popover: 0 0% 0%;
+    --popover-foreground: 41 100% 50%;
+
+    --primary: 41 100% 50%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 0%;
+    --secondary-foreground: 41 100% 50%;
+
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 41 100% 50%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 41 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .heading-xl {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight;
+  }
+
+  .heading-lg {
+    @apply text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight;
+  }
+
+  .heading-md {
+    @apply text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight leading-tight;
+  }
+
+  .salon-card {
+    @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden dark:bg-studio-black dark:border dark:border-studio-gold/30;
+  }
+
+  .btn-primary {
+    @apply bg-studio-gold text-studio-black hover:bg-studio-gold-light px-6 py-3 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply bg-studio-black text-studio-gold hover:bg-gray-900 px-6 py-3 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg border border-studio-gold/50;
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gold-gradient animate-shimmer bg-[length:200%_auto];
+}
+
+.section-padding {
+  @apply py-16 sm:py-24 lg:py-32;
+}
+
+.hover-lift {
+  @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+}
+
+.studio39-border {
+  @apply border border-studio-gold/30;
+}
+
+.studio39-card {
+  @apply bg-studio-black border border-studio-gold/30 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden;
+}
+
+.studio39-gradient-text {
+  @apply bg-clip-text text-transparent bg-gold-gradient animate-shimmer bg-[length:200%_auto];
+}
+
+.studio39-section {
+  @apply bg-studio-black text-white;
+}
+
+.studio39-button {
+  @apply bg-studio-gold text-studio-black hover:bg-studio-gold-light px-6 py-3 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg;
+}
+
+.studio39-button-outline {
+  @apply bg-transparent text-studio-gold hover:bg-studio-gold/10 px-6 py-3 rounded-md font-semibold transition-all duration-300 border border-studio-gold;
+}
+
