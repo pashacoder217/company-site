@@ -13,9 +13,9 @@ export default function AboutPage() {
     <>
       <div className="bg-gradient-to-r from-primary to-primary-light py-20 mb-12">
         <div className="container-custom">
-          <h1 className="heading-xl text-white text-center mb-4">About Glow Salon</h1>
+          <h1 className="heading-xl text-white text-center mb-4">About AlfaHive</h1>
           <p className="text-xl text-white/90 text-center max-w-2xl mx-auto">
-            Discover our story, our passion for beauty, and our commitment to excellence.
+            Discover our story, our passion for improving, and our commitment to excellence.
           </p>
         </div>
       </div>
@@ -24,12 +24,10 @@ export default function AboutPage() {
           <div>
             <h2 className="heading-lg mb-6">Our Story</h2>
             <p className="text-gray-600 mb-4">
-              Founded in 2010, Glow Salon has been at the forefront of beauty and style in Mumbai. Our journey began
-              with a simple vision: to provide top-quality beauty services in a welcoming, luxurious environment.
+            Alfahive was founded with a clear vision: to empower businesses through innovative AI, software, and cloud solutions. A group of passionate tech professionals came together to bridge the gap between cutting-edge technology and businesses seeking scalable, secure solutions.
             </p>
             <p className="text-gray-600 mb-4">
-              Over the years, we've grown from a small local salon to a renowned beauty destination, thanks to our
-              commitment to excellence and our passionate team of skilled professionals.
+            We focused on creating tailored, efficient solutions that help businesses thrive in the digital age. By embracing emerging technologies and building strong client relationships, Alfahive has become a trusted partner for organizations of all sizes. Today, we continue to drive digital transformation, delivering impactful results through our expertise in AI and cloud technologies.
             </p>
             <Button asChild className="mt-4">
               <Link href="/booking">Book an Appointment</Link>

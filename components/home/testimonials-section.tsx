@@ -84,8 +84,7 @@ export default function TestimonialsSection() {
         <div className="text-center mb-16">
           <h2 className="heading-lg text-white font-playfair">What Our Customers Say</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what our clients have to say about their experiences at Studio 39
-            Salon.
+            Don't just take our word for it. Here's what our clients have to say about their experiences at AlfaHive
           </p>
         </div>
 
