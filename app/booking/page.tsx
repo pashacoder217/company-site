@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { Suspense } from 'react';
 import BookingForm from "@/components/booking/booking-form"
 import BookingBanner from "@/components/booking/booking-banner"
 
@@ -14,7 +15,9 @@ export default function BookingPage() {
       <BookingBanner />
       <div className="py-16 bg-gray-50">
         <div className="container-custom">
-          <BookingForm />
+          <Suspense fallback={<div>Loading...</div>}>
+            <BookingForm />
+          </Suspense>
         </div>
       </div>
     </>

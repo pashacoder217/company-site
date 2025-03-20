@@ -27,7 +27,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 text-gray-300 leading-relaxed font-montserrat">
-            Indulge in premium beauty services tailored for you. Where elegance meets excellence and confidence is born.
+          We specialize in AI consulting, custom software development, and comprehensive technology solutions
           </p>
 
           <div className="flex flex-wrap gap-4">
