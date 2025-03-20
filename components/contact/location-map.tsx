@@ -9,15 +9,15 @@ export default function LocationMap() {
         <div className="w-16 h-16 rounded-full bg-studio-gold/20 flex items-center justify-center mb-4">
           <MapPin className="h-8 w-8 text-studio-gold" />
         </div>
-        <h3 className="text-xl font-bold text-white mb-2">Studio 39 Salon</h3>
-        <p className="text-gray-400 mb-4">123 Luxury Lane, Mumbai, Maharashtra 400001, India</p>
+        <h3 className="text-xl font-bold text-white mb-2">AlfaHive</h3>
+        <p className="text-gray-400 mb-4">Miami, FL 33131, USA</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 w-full max-w-md">
           <div className="flex items-center">
             <Phone className="h-5 w-5 text-studio-gold mr-3" />
             <div>
               <p className="text-gray-300 font-medium">Phone</p>
-              <p className="text-gray-400">+91 98765 43210</p>
+              <p className="text-gray-400">+1 (406) 233 9608</p>
             </div>
           </div>
 
@@ -25,7 +25,7 @@ export default function LocationMap() {
             <Clock className="h-5 w-5 text-studio-gold mr-3" />
             <div>
               <p className="text-gray-300 font-medium">Hours</p>
-              <p className="text-gray-400">10:00 AM - 8:00 PM</p>
+              <p className="text-gray-400">9:00 AM - 5:00 PM</p>
             </div>
           </div>
         </div>

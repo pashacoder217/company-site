@@ -4,8 +4,8 @@ import ContactInfo from "@/components/contact/contact-info"
 import LocationMap from "@/components/contact/location-map"
 
 export const metadata: Metadata = {
-  title: "Contact Us - Glow Unisex Salon",
-  description: "Get in touch with Glow Unisex Salon. Find our location, contact information, and business hours.",
+  title: "Contact Us | Alfahive IT Solutions",
+  description: "Reach out to Alfahive IT Solutions for expert guidance on AI, software development, and cloud technologies. Our team is ready to assist you with customized solutions and support.",
 }
 
 export default function ContactPage() {

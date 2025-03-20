@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "About Us - Glow Unisex Salon",
-  description: "Learn about Glow Unisex Salon's history, mission, and our team of expert stylists.",
+  title: "About Us | Alfahive - Leading IT Solutions in AI, Software & Cloud",
+  description: "Learn about Alfahive, a leading provider of AI, software, and cloud solutions. Our team is dedicated to delivering innovative and secure technology services that help businesses grow and thrive in the digital era.",
 }
 
 export default function AboutPage() {
@@ -37,7 +37,7 @@ export default function AboutPage() {
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&crop=focalpoint&auto=format&q=80"
+              src="https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/business-colleagues-working-reports-communicating-while-working-office-focus-is-woman_637285-1061-eOJ9djtLNo8AhYzX1QlRkGFvnX7nEl.jpg"
               alt="Glow Salon Interior"
               fill
               className="object-cover"

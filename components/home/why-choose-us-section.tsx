@@ -7,21 +7,21 @@ const features = [
     title: "Expert Stylists",
     description: "Our team of certified professionals brings years of experience and creativity to every service.",
     image:
-      "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&h=400&fit=crop&crop=focalpoint&auto=format&q=80",
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/pngtree-business-people-in-a-meeting-at-office-person-success-conference-photo-image_42384800-wWGruFRYMKsv8MyPoXMF92yLJYmKfA.jpg",
   },
   {
     icon: <Award className="h-8 w-8 text-studio-gold" />,
     title: "Premium Products",
     description: "We use only the highest quality, luxurious products to ensure the best results for our clients.",
     image:
-      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&h=400&fit=crop&crop=focalpoint&auto=format&q=80",
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/images%20%282%29-qwXLIcOJ5haCYQ0WjagwKtV9yC1e4k.jpg",
   },
   {
     icon: <Sparkles className="h-8 w-8 text-studio-gold" />,
     title: "Personalized Experience",
     description: "Enjoy a tailored approach to beauty, with services customized to your unique style and needs.",
     image:
-      "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&h=400&fit=crop&crop=focalpoint&auto=format&q=80",
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/images%20%283%29-rrFdmkGMp8tRScNjkookuLPG3DBRhz.jpg",
   },
 ]
 

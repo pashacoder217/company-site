@@ -6,7 +6,7 @@ export default function ServicesBanner() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1920&h=600&fit=crop&crop=focalpoint&auto=format&q=80"
+          src="https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg"
           alt="Salon services"
           fill
           className="object-cover"

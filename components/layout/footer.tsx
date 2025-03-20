@@ -12,11 +12,10 @@ export default function Footer() {
               <div className="w-10 h-10 bg-studio-gold rounded-full flex items-center justify-center mr-3">
                 <Scissors className="h-5 w-5 text-studio-black" />
               </div>
-              <span className="text-2xl font-bold gradient-text font-playfair">Studio 39</span>
+              <span className="text-2xl font-bold gradient-text font-playfair">AlfaHive</span>
             </div>
             <p className="text-gray-400 mb-6">
-              Elevating beauty and style with our premium luxury salon services. Experience the Studio 39 difference
-              today!
+              We specialize in AI consulting, custom software development, and comprehensive technology solutions!
             </p>
             <div className="flex space-x-4">
               <a
@@ -90,15 +89,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-6 w-6 text-studio-gold shrink-0 mt-0.5 mr-3" />
-                <span className="text-gray-400">123 Luxury Lane, Mumbai, Maharashtra 400001, India</span>
+                <span className="text-gray-400">Miami, FL 33131, USA</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-6 w-6 text-studio-gold mr-3" />
-                <span className="text-gray-400">+91 98765 43210</span>
+                <span className="text-gray-400">+1 (406) 233 9608</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-6 w-6 text-studio-gold mr-3" />
-                <span className="text-gray-400">info@studio39salon.in</span>
+                <span className="text-gray-400">hello@alfahive.net</span>
               </li>
             </ul>
           </div>
@@ -113,17 +112,17 @@ export default function Footer() {
               <li className="flex items-start">
                 <Clock className="h-6 w-6 text-studio-gold shrink-0 mt-0.5 mr-3" />
                 <div>
-                  <p className="text-gray-400">Monday - Saturday:</p>
-                  <p className="font-semibold text-white">10:00 AM - 8:00 PM</p>
+                  <p className="text-gray-400">Monday - Friday:</p>
+                  <p className="font-semibold text-white">09:00 AM - 5:00 PM</p>
                 </div>
               </li>
-              <li className="flex items-start">
+              {/* <li className="flex items-start">
                 <Clock className="h-6 w-6 text-studio-gold shrink-0 mt-0.5 mr-3" />
                 <div>
                   <p className="text-gray-400">Sunday:</p>
                   <p className="font-semibold text-white">11:00 AM - 6:00 PM</p>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -132,7 +131,7 @@ export default function Footer() {
         <div className="border-t border-studio-gold/20 pt-10 pb-8 mb-8">
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-xl font-semibold mb-4 font-playfair">Subscribe to Our Newsletter</h3>
-            <p className="text-gray-400 mb-6">Stay updated with our latest offers and beauty tips.</p>
+            <p className="text-gray-400 mb-6">Stay updated with our latest offers.</p>
             <form className="flex flex-col sm:flex-row gap-4">
               <input
                 type="email"
@@ -148,11 +147,11 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} Studio 39 Salon. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AlfaHive. All rights reserved.</p>
           <p className="mt-2">
-            <span className="inline-block">Made with ❤️ in India</span>
+            <span className="inline-block">Made in US</span>
             <span className="mx-2">|</span>
-            <span className="inline-block">सभी के लिए लक्ज़री (Luxury for All)</span>
+            <span className="inline-block">AlfaHive</span>
           </p>
         </div>
       </div>

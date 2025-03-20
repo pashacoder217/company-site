@@ -27,7 +27,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 text-gray-300 leading-relaxed font-montserrat">
-          We specialize in AI consulting, custom software development, and comprehensive technology solutions
+            We specialize in AI consulting, custom software development, and comprehensive technology solutions
           </p>
 
           <div className="flex flex-wrap gap-4">

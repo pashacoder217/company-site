@@ -20,19 +20,19 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Studio 39 Salon - Luxury Beauty Experience",
+  title: "Alfa Hive  - Innovative IT Solutions: AI, Software Development, and Cloud Technologies",
   description:
-    "Premier luxury salon in India offering haircuts, styling, nail care, beauty treatments, and makeup services for men and women.",
-  keywords: "luxury salon, beauty salon India, haircuts, hairstyling, nail care, beauty treatments, makeup services",
+    "Alfahive specializes in AI solutions, custom software, and cloud technologies to drive business growth and efficiency",
+  keywords: "AI solutions, software development, cloud technologies, SaaS development, DevOps, data engineering, cloud security",
   openGraph: {
-    title: "Studio 39 Salon - Luxury Beauty Experience",
+    title: "Innovative IT Solutions for Businesses | Alfahive",
     description:
-      "Premier luxury salon in India offering haircuts, styling, nail care, beauty treatments, and makeup services for men and women.",
+      "Alfahive provides AI, software, and cloud technologies to drive business growth, efficiency, and innovation.",
     images: ["/images/og-image.jpg"],
     type: "website",
-    locale: "en_IN",
+    locale: "US",
   },
-    generator: 'v0.dev'
+    generator: 'alfahive team'
 }
 
 export default function RootLayout({

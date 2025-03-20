@@ -15,7 +15,7 @@ const services = {
       price: 300,
       duration: "30 min",
       image:
-        "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
     {
       id: "m2",
@@ -24,7 +24,7 @@ const services = {
       price: 200,
       duration: "20 min",
       image:
-        "https://images.unsplash.com/photo-1461799821556-055545cf32dc?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
     {
       id: "m3",
@@ -33,7 +33,7 @@ const services = {
       price: 800,
       duration: "60 min",
       image:
-        "https://images.unsplash.com/photo-1737042126375-10c79e59c55c?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
     {
       id: "m4",
@@ -42,7 +42,7 @@ const services = {
       price: 600,
       duration: "45 min",
       image:
-        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
   ],
   women: [
@@ -53,7 +53,7 @@ const services = {
       price: 500,
       duration: "45 min",
       image:
-        "https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
     {
       id: "w2",
@@ -62,7 +62,7 @@ const services = {
       price: 1200,
       duration: "90 min",
       image:
-        "https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
     {
       id: "w3",
@@ -71,7 +71,7 @@ const services = {
       price: 3000,
       duration: "120 min",
       image:
-        "https://images.unsplash.com/photo-1594140700520-8afea3283e2c?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
     {
       id: "w4",
@@ -80,7 +80,7 @@ const services = {
       price: 500,
       duration: "60 min",
       image:
-        "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
   ],
   unisex: [
@@ -91,7 +91,7 @@ const services = {
       price: 800,
       duration: "60 min",
       image:
-        "https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
     {
       id: "u2",
@@ -100,7 +100,7 @@ const services = {
       price: 100,
       duration: "15 min",
       image:
-        "https://images.unsplash.com/photo-1535637603896-07c179d71103?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
     {
       id: "u3",
@@ -109,7 +109,7 @@ const services = {
       price: 500,
       duration: "45 min",
       image:
-        "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
     {
       id: "u4",
@@ -118,7 +118,7 @@ const services = {
       price: 300,
       duration: "30 min",
       image:
-        "https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?w=500&h=350&fit=crop&crop=focalpoint&auto=format&q=80",
+        "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
   ],
 }
