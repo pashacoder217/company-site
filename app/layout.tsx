@@ -45,8 +45,13 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <script
+            src={`https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap`}
+            defer
+        >
+        </script>
       </Head>
-      <body className={`${playfair.variable} ${montserrat.variable} font-sans bg-studio-black text-white`}>
+      <body className={`${playfair.variable} ${montserrat.variable} font-sans bg-af-black text-white`}>
         <GoogleAnalytics />
         <Header />
         <main>{children}</main>

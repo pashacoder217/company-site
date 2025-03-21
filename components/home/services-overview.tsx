@@ -49,7 +49,7 @@ const services = [
 
 export default function ServicesOverview() {
   return (
-    <section className="section-padding bg-studio-black">
+    <section className="section-padding bg-af-black">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="heading-lg mb-4 text-white font-playfair">Our Services</h2>
@@ -62,16 +62,16 @@ export default function ServicesOverview() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="studio39-card p-8 text-center hover-lift transition-all duration-300 hover:bg-gray-900"
+              className="alfa-card p-8 text-center hover-lift transition-all duration-300 hover:bg-gray-900"
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-studio-gold/10 mb-6 border border-studio-gold/30">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-af-gold/10 mb-6 border border-af-gold/30">
                 {service.icon}
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">{service.title}</h3>
               <p className="text-gray-400 mb-6">{service.description}</p>
               <Link
                 href={service.link}
-                className="text-studio-gold font-medium hover:text-studio-gold-light transition-colors inline-flex items-center"
+                className="text-af-gold font-medium hover:text-af-gold-light transition-colors inline-flex items-center"
               >
                 Learn More
                 <svg

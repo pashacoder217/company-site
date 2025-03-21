@@ -7,7 +7,7 @@ export default function GalleryBanner() {
       <div className="absolute inset-0 z-0">
         <Image
           src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&h=600&fit=crop&crop=focalpoint&auto=format&q=80"
-          alt="Salon gallery"
+          alt="hive gallery"
           fill
           className="object-cover"
           priority

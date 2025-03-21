@@ -26,7 +26,7 @@ export default function WhatsAppWidget() {
       {/* WhatsApp Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 z-50 bg-studio-gold text-studio-black p-4 rounded-full shadow-lg hover:bg-studio-gold-light transition-all"
+        className="fixed bottom-6 right-6 z-50 bg-af-gold text-af-black p-4 rounded-full shadow-lg hover:bg-af-gold-light transition-all"
         aria-label="Contact us on WhatsApp"
       >
         {isOpen ? <X className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
@@ -34,8 +34,8 @@ export default function WhatsAppWidget() {
 
       {/* WhatsApp Chat Widget */}
       {isOpen && (
-        <div className="fixed bottom-24 right-6 z-50 bg-studio-black rounded-lg shadow-xl w-80 overflow-hidden studio39-card">
-          <div className="bg-studio-gold text-studio-black p-4">
+        <div className="fixed bottom-24 right-6 z-50 bg-af-black rounded-lg shadow-xl w-80 overflow-hidden alfa-card">
+          <div className="bg-af-gold text-af-black p-4">
             <h3 className="font-bold text-lg">Chat with Us</h3>
             <p className="text-sm">Typically replies within minutes</p>
           </div>
@@ -50,7 +50,7 @@ export default function WhatsAppWidget() {
                 id="name"
                 name="name"
                 required
-                className="w-full px-3 py-2 bg-gray-900 border border-studio-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-studio-gold text-white"
+                className="w-full px-3 py-2 bg-gray-900 border border-af-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-af-gold text-white"
               />
             </div>
 
@@ -63,14 +63,14 @@ export default function WhatsAppWidget() {
                 name="message"
                 rows={3}
                 required
-                className="w-full px-3 py-2 bg-gray-900 border border-studio-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-studio-gold text-white"
+                className="w-full px-3 py-2 bg-gray-900 border border-af-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-af-gold text-white"
                 placeholder="Hi, I'd like to book an appointment..."
               ></textarea>
             </div>
 
             <button
               type="submit"
-              className="w-full bg-studio-gold text-studio-black py-2 px-4 rounded-md hover:bg-studio-gold-light transition-colors"
+              className="w-full bg-af-gold text-af-black py-2 px-4 rounded-md hover:bg-af-gold-light transition-colors"
             >
               Send on WhatsApp
             </button>

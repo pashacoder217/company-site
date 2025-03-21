@@ -49,7 +49,7 @@ export default function AboutPage() {
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
               src="https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/business-colleagues-working-reports-communicating-while-working-office-focus-is-woman_637285-1061-eOJ9djtLNo8AhYzX1QlRkGFvnX7nEl.jpg"
-              alt="Glow Salon Interior"
+              alt="business"
               fill
               className="object-cover"
             />
@@ -68,7 +68,7 @@ export default function AboutPage() {
           <div className="flex justify-around gap-20">
             {
               teammember.map((member, index) => (
-                <div key={index} className="salon-card text-center px-20 py-10">
+                <div key={index} className="hive-card text-center px-20 py-10">
                   <div className="relative w-40 h-40 rounded-full overflow-hidden mx-auto mb-4">
                     <Image src={member.avatar} alt={`Stylist ${index + 1}`} fill className="object-cover" />
                   </div>

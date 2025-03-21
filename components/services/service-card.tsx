@@ -16,7 +16,7 @@ interface ServiceProps {
 
 export default function ServiceCard({ service }: ServiceProps) {
   return (
-    <div className="salon-card overflow-hidden shadow-salon hover:shadow-salon-hover transition-all group">
+    <div className="hive-card overflow-hidden shadow-hive hover:shadow-hive-hover transition-all group">
       <div className="relative h-48">
         <Image
           src={service.image || "/placeholder.svg"}

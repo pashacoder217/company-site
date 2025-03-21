@@ -27,7 +27,7 @@ export default function WhyChooseUsSection() {
     <section className="section-padding bg-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="heading-lg mb-4">Why Choose Glow Salon?</h2>
+          <h2 className="heading-lg mb-4">Why Choose Glow hive?</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Experience the difference with our commitment to excellence, luxury, and personalized care.
           </p>
@@ -35,7 +35,7 @@ export default function WhyChooseUsSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="salon-card overflow-hidden group hover-lift">
+            <div key={index} className="hive-card overflow-hidden group hover-lift">
               <div className="relative h-48">
                 <Image
                   src={feature.image || "/placeholder.svg"}

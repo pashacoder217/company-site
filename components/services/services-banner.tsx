@@ -7,12 +7,12 @@ export default function ServicesBanner() {
       <div className="absolute inset-0 z-0">
         <Image
           src="https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/360_F_636580399_lpAcQfxbpGPPgWlwoMQ8KXndj6zOTN0S-TYDWoDZqmaFirvvnZOLDCUsvOhaIuB.jpg"
-          alt="Salon services"
+          alt="hive services"
           fill
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-studio-black/90 to-studio-black/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-af-black/90 to-af-black/70"></div>
       </div>
 
       <div className="container-custom relative z-10">

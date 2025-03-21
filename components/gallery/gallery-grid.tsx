@@ -12,7 +12,7 @@ const galleryItems = {
     {
       id: 1,
       src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&crop=focalpoint&auto=format&q=80",
-      alt: "Salon interior",
+      alt: "hive interior",
       category: "interior",
     },
     {
@@ -128,7 +128,7 @@ export default function GalleryGrid() {
                 <Dialog key={item.id}>
                   <DialogTrigger asChild>
                     <div
-                      className="relative aspect-square overflow-hidden rounded-md cursor-pointer group salon-card transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                      className="relative aspect-square overflow-hidden rounded-md cursor-pointer group hive-card transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
                       onClick={() => {
                         setSelectedImage(item.src)
                         setSelectedAlt(item.alt)

@@ -74,7 +74,7 @@ export default function TestimonialsSection() {
   }
 
   return (
-    <section className="section-padding bg-studio-black relative overflow-hidden animate-fadeIn">
+    <section className="section-padding bg-af-black relative overflow-hidden animate-fadeIn">
       {/* Decorative Pattern */}
       <div className="absolute inset-0 pointer-events-none opacity-10">
         <div className="absolute inset-0 bg-contain bg-[url('https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/customer-review-good-rating-concept-600nw-2236198959-86JUH4UerxrRASwWH32xvf9d8Pe7fW.webp')] bg- bg-repeat-space bg-contain"></div>
@@ -96,9 +96,9 @@ export default function TestimonialsSection() {
             >
               {testimonials.map((testimonial) => (
                 <div key={testimonial.id} className="w-full flex-shrink-0 px-4">
-                  <div className="studio39-card p-8 shadow-md">
+                  <div className="alfa-card p-8 shadow-md">
                     <div className="flex flex-col md:flex-row md:items-center mb-6">
-                      <div className="relative w-16 h-16 rounded-full overflow-hidden mb-4 md:mb-0 md:mr-4 border border-studio-gold/30">
+                      <div className="relative w-16 h-16 rounded-full overflow-hidden mb-4 md:mb-0 md:mr-4 border border-af-gold/30">
                         <Image
                           src={testimonial.image || "/placeholder.svg"}
                           alt={testimonial.name}
@@ -109,7 +109,7 @@ export default function TestimonialsSection() {
                       <div>
                         <h3 className="font-bold text-lg text-white">{testimonial.name}</h3>
                         <p className="text-gray-400 text-sm">{testimonial.role}</p>
-                        <div className="flex text-studio-gold mt-1">
+                        <div className="flex text-af-gold mt-1">
                           {[...Array(5)].map((_, i) => (
                             <Star key={i} className="w-4 h-4" fill={i < testimonial.rating ? "currentColor" : "none"} />
                           ))}
@@ -117,9 +117,9 @@ export default function TestimonialsSection() {
                       </div>
                     </div>
                     <div className="relative">
-                      <div className="absolute -top-2 -left-2 text-5xl text-studio-gold opacity-20">"</div>
+                      <div className="absolute -top-2 -left-2 text-5xl text-af-gold opacity-20">"</div>
                       <blockquote className="text-gray-300 italic relative z-10 pl-4">{testimonial.quote}</blockquote>
-                      <div className="absolute -bottom-4 -right-2 text-5xl text-studio-gold opacity-20">"</div>
+                      <div className="absolute -bottom-4 -right-2 text-5xl text-af-gold opacity-20">"</div>
                     </div>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ export default function TestimonialsSection() {
 
           <button
             onClick={handlePrev}
-            className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-4 bg-studio-black rounded-full p-2 shadow-md hover:bg-gray-900 transition-colors border border-studio-gold/30 text-studio-gold"
+            className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-4 bg-af-black rounded-full p-2 shadow-md hover:bg-gray-900 transition-colors border border-af-gold/30 text-af-gold"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="w-5 h-5" />
@@ -137,7 +137,7 @@ export default function TestimonialsSection() {
 
           <button
             onClick={handleNext}
-            className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-4 bg-studio-black rounded-full p-2 shadow-md hover:bg-gray-900 transition-colors border border-studio-gold/30 text-studio-gold"
+            className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-4 bg-af-black rounded-full p-2 shadow-md hover:bg-gray-900 transition-colors border border-af-gold/30 text-af-gold"
             aria-label="Next testimonial"
           >
             <ChevronRight className="w-5 h-5" />
@@ -152,7 +152,7 @@ export default function TestimonialsSection() {
                   setCurrentIndex(index)
                 }}
                 className={`w-3 h-3 rounded-full transition-colors ${
-                  index === currentIndex ? "bg-studio-gold" : "bg-gray-700"
+                  index === currentIndex ? "bg-af-gold" : "bg-gray-700"
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}
               />

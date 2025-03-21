@@ -13,11 +13,11 @@ export default function AdminPage() {
   }
 
   return (
-    <div className="min-h-screen bg-studio-black flex items-center justify-center p-4">
+    <div className="min-h-screen bg-af-black flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-studio-gold font-playfair mb-2">Admin Panel</h1>
-          <p className="text-gray-400">Studio 39 Salon Staff Portal</p>
+          <h1 className="text-4xl font-bold text-af-gold font-playfair mb-2">Admin Panel</h1>
+          <p className="text-gray-400">af 39 hive Staff Portal</p>
         </div>
 
         <AdminLoginForm />

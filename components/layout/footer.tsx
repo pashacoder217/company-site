@@ -4,16 +4,16 @@ import { Facebook, Instagram, Twitter, MapPin, Phone, Mail, Clock, Scissors } fr
 
 export default function Footer() {
   return (
-    <footer className="bg-studio-black text-white pt-20 pb-10 border-t border-studio-gold/20">
+    <footer className="bg-af-black text-white pt-20 pb-10 border-t border-af-gold/20">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-          {/* About Studio 39 Salon */}
+          {/* About af 39 hive */}
           <div>
             <div className="flex items-center mb-6">
-              {/* <div className="w-10 h-10 bg-studio-gold rounded-full flex items-center justify-center mr-3"> */}
+              {/* <div className="w-10 h-10 bg-af-gold rounded-full flex items-center justify-center mr-3"> */}
                 <Image
                   src="https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/alfahive_logo-or8Nx7fB7ktxPUjhTAmoMamwt8sWzz.png"
-                  alt="Studio 39 Salon Logo"
+                  alt="af 39 hive Logo"
                   width={30}
                   height={30}
                   className="rounded-full object-cover"
@@ -29,7 +29,7 @@ export default function Footer() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-studio-gold transition-colors"
+                className="text-gray-400 hover:text-af-gold transition-colors"
               >
                 <Instagram className="h-6 w-6" />
               </a>
@@ -37,7 +37,7 @@ export default function Footer() {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-studio-gold transition-colors"
+                className="text-gray-400 hover:text-af-gold transition-colors"
               >
                 <Facebook className="h-6 w-6" />
               </a>
@@ -45,7 +45,7 @@ export default function Footer() {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-studio-gold transition-colors"
+                className="text-gray-400 hover:text-af-gold transition-colors"
               >
                 <Twitter className="h-6 w-6" />
               </a>
@@ -55,32 +55,32 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-6 flex items-center">
-              <span className="w-8 h-0.5 bg-studio-gold mr-3"></span>
+              <span className="w-8 h-0.5 bg-af-gold mr-3"></span>
               Quick Links
             </h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/services" className="text-gray-400 hover:text-studio-gold transition-colors">
+                <Link href="/services" className="text-gray-400 hover:text-af-gold transition-colors">
                   Our Services
                 </Link>
               </li>
               {/* <li>
-                <Link href="/gallery" className="text-gray-400 hover:text-studio-gold transition-colors">
+                <Link href="/gallery" className="text-gray-400 hover:text-af-gold transition-colors">
                   Gallery
                 </Link>
               </li> */}
               <li>
-                <Link href="/about" className="text-gray-400 hover:text-studio-gold transition-colors">
+                <Link href="/about" className="text-gray-400 hover:text-af-gold transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-400 hover:text-studio-gold transition-colors">
+                <Link href="/contact" className="text-gray-400 hover:text-af-gold transition-colors">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/booking" className="text-gray-400 hover:text-studio-gold transition-colors">
+                <Link href="/booking" className="text-gray-400 hover:text-af-gold transition-colors">
                   Book Appointment
                 </Link>
               </li>
@@ -90,20 +90,20 @@ export default function Footer() {
           {/* Contact Information */}
           <div>
             <h3 className="text-lg font-semibold mb-6 flex items-center">
-              <span className="w-8 h-0.5 bg-studio-gold mr-3"></span>
+              <span className="w-8 h-0.5 bg-af-gold mr-3"></span>
               Contact Us
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start">
-                <MapPin className="h-6 w-6 text-studio-gold shrink-0 mt-0.5 mr-3" />
+                <MapPin className="h-6 w-6 text-af-gold shrink-0 mt-0.5 mr-3" />
                 <span className="text-gray-400">Miami, FL 33131, USA</span>
               </li>
               <li className="flex items-center">
-                <Phone className="h-6 w-6 text-studio-gold mr-3" />
+                <Phone className="h-6 w-6 text-af-gold mr-3" />
                 <span className="text-gray-400">+1 (406) 233 9608</span>
               </li>
               <li className="flex items-center">
-                <Mail className="h-6 w-6 text-studio-gold mr-3" />
+                <Mail className="h-6 w-6 text-af-gold mr-3" />
                 <span className="text-gray-400">hello@alfahive.net</span>
               </li>
             </ul>
@@ -112,19 +112,19 @@ export default function Footer() {
           {/* Business Hours */}
           <div>
             <h3 className="text-lg font-semibold mb-6 flex items-center">
-              <span className="w-8 h-0.5 bg-studio-gold mr-3"></span>
+              <span className="w-8 h-0.5 bg-af-gold mr-3"></span>
               Business Hours
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start">
-                <Clock className="h-6 w-6 text-studio-gold shrink-0 mt-0.5 mr-3" />
+                <Clock className="h-6 w-6 text-af-gold shrink-0 mt-0.5 mr-3" />
                 <div>
                   <p className="text-gray-400">Monday - Friday:</p>
                   <p className="font-semibold text-white">09:00 AM - 5:00 PM</p>
                 </div>
               </li>
               {/* <li className="flex items-start">
-                <Clock className="h-6 w-6 text-studio-gold shrink-0 mt-0.5 mr-3" />
+                <Clock className="h-6 w-6 text-af-gold shrink-0 mt-0.5 mr-3" />
                 <div>
                   <p className="text-gray-400">Sunday:</p>
                   <p className="font-semibold text-white">11:00 AM - 6:00 PM</p>
@@ -135,7 +135,7 @@ export default function Footer() {
         </div>
 
         {/* Newsletter Subscription */}
-        <div className="border-t border-studio-gold/20 pt-10 pb-8 mb-8">
+        <div className="border-t border-af-gold/20 pt-10 pb-8 mb-8">
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-xl font-semibold mb-4 font-playfair">Subscribe to Our Newsletter</h3>
             <p className="text-gray-400 mb-6">Stay updated with our latest offers.</p>
@@ -143,9 +143,9 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-grow px-4 py-3 rounded-md bg-gray-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-studio-gold border border-studio-gold/30"
+                className="flex-grow px-4 py-3 rounded-md bg-gray-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-af-gold border border-af-gold/30"
               />
-              <button type="submit" className="studio39-button">
+              <button type="submit" className="alfa-button">
                 Subscribe
               </button>
             </form>

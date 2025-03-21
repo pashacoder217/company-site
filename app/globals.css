@@ -96,16 +96,16 @@ html {
     @apply text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight leading-tight;
   }
 
-  .salon-card {
-    @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden dark:bg-studio-black dark:border dark:border-studio-gold/30;
+  .hive-card {
+    @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden dark:bg-af-black dark:border dark:border-af-gold/30;
   }
 
   .btn-primary {
-    @apply bg-studio-gold text-studio-black hover:bg-studio-gold-light px-6 py-3 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg;
+    @apply bg-af-gold text-af-black hover:bg-af-gold-light px-6 py-3 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg;
   }
 
   .btn-secondary {
-    @apply bg-studio-black text-studio-gold hover:bg-gray-900 px-6 py-3 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg border border-studio-gold/50;
+    @apply bg-af-black text-af-gold hover:bg-gray-900 px-6 py-3 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg border border-af-gold/50;
   }
 }
 
@@ -121,27 +121,27 @@ html {
   @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
 }
 
-.studio39-border {
-  @apply border border-studio-gold/30;
+.alfa-border {
+  @apply border border-af-gold/30;
 }
 
-.studio39-card {
-  @apply bg-studio-black border border-studio-gold/30 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden;
+.alfa-card {
+  @apply bg-af-black border border-af-gold/30 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden;
 }
 
-.studio39-gradient-text {
+.alfa-gradient-text {
   @apply bg-clip-text text-transparent bg-gold-gradient animate-shimmer bg-[length:200%_auto];
 }
 
-.studio39-section {
-  @apply bg-studio-black text-white;
+.alfa-section {
+  @apply bg-af-black text-white;
 }
 
-.studio39-button {
-  @apply bg-studio-gold text-studio-black hover:bg-studio-gold-light px-6 py-3 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg;
+.alfa-button {
+  @apply bg-af-gold text-af-black hover:bg-af-gold-light px-6 py-3 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg;
 }
 
-.studio39-button-outline {
-  @apply bg-transparent text-studio-gold hover:bg-studio-gold/10 px-6 py-3 rounded-md font-semibold transition-all duration-300 border border-studio-gold;
+.alfa-button-outline {
+  @apply bg-transparent text-af-gold hover:bg-af-gold/10 px-6 py-3 rounded-md font-semibold transition-all duration-300 border border-af-gold;
 }
 

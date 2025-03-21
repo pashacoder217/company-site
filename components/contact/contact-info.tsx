@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Twitter } from "lucide
 
 export default function ContactInfo() {
   return (
-    <div className="salon-card p-8 shadow-salon">
+    <div className="hive-card p-8 shadow-hive">
       <h2 className="heading-md mb-6 flex items-center">
         <span className="w-8 h-0.5 bg-primary mr-2"></span>
         Get In Touch

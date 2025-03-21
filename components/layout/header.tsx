@@ -29,16 +29,16 @@ export default function Header() {
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 animate-fadeIn ${
-        isScrolled ? "bg-studio-black/95 backdrop-blur-md border-b border-studio-gold/20 py-2" : "bg-transparent py-4"
+        isScrolled ? "bg-af-black/95 backdrop-blur-md border-b border-af-gold/20 py-2" : "bg-transparent py-4"
       }`}
     >
       <div className="container-custom">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2 transition-transform hover:scale-105">
-            <div className="w-12 h-12 rounded-full overflow-hidden border border-studio-gold/50">
+            <div className="w-12 h-12 rounded-full overflow-hidden border border-af-gold/50">
               <Image
                 src="https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/alfahive_logo-or8Nx7fB7ktxPUjhTAmoMamwt8sWzz.png"
-                alt="Studio 39 Salon Logo"
+                alt="af 39 hive Logo"
                 width={48}
                 height={48}
                 className="rounded-full object-cover"
@@ -54,21 +54,21 @@ export default function Header() {
                 href={item.href}
                 className={`px-4 py-2 rounded-md text-sm font-medium transition-colors hover:scale-105 transform ${
                   pathname === item.href
-                    ? "text-studio-black bg-studio-gold shadow-md"
-                    : "text-studio-gold hover:text-studio-black hover:bg-studio-gold"
+                    ? "text-af-black bg-af-gold shadow-md"
+                    : "text-af-gold hover:text-af-black hover:bg-af-gold"
                 }`}
               >
                 {item.name}
               </Link>
             ))}
-            <Button className="ml-8 bg-studio-gold text-studio-black shadow-md hover:bg-studio-gold-light hover:shadow-lg rounded-md">
+            <Button className="ml-8 bg-af-gold text-af-black shadow-md hover:bg-af-gold-light hover:shadow-lg rounded-md">
               <Link href="/booking">Book Now</Link>
             </Button>
           </nav>
 
           <Button
             size="icon"
-            className="lg:hidden bg-studio-gold text-studio-black hover:bg-studio-gold-light"
+            className="lg:hidden bg-af-gold text-af-black hover:bg-af-gold-light"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -78,15 +78,15 @@ export default function Header() {
 
         {/* Mobile menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden mt-4 bg-studio-black rounded-lg shadow-lg p-4 border border-studio-gold/30">
+          <div className="lg:hidden mt-4 bg-af-black rounded-lg shadow-lg p-4 border border-af-gold/30">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
                 className={`block px-4 py-3 rounded-md text-base font-medium mb-2 ${
                   pathname === item.href
-                    ? "text-studio-black bg-studio-gold shadow-md"
-                    : "text-studio-gold hover:text-studio-black hover:bg-studio-gold"
+                    ? "text-af-black bg-af-gold shadow-md"
+                    : "text-af-gold hover:text-af-black hover:bg-af-gold"
                 }`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -96,7 +96,7 @@ export default function Header() {
             <Button asChild variant="default" className="w-full mt-4 animate-pulse hover:animate-none">
               <Link
                 href="/booking"
-                className="flex items-center justify-center bg-studio-gold text-studio-black shadow-md hover:bg-studio-gold-light hover:shadow-lg rounded-md"
+                className="flex items-center justify-center bg-af-gold text-af-black shadow-md hover:bg-af-gold-light hover:shadow-lg rounded-md"
               >
                 <span>Book Now</span>
                 <svg

@@ -66,7 +66,7 @@ module.exports = {
           800: "#805200",
           900: "#4D3100",
         },
-        studio: {
+        af: {
           black: "#000000",
           gold: "#D4AF37",
           "gold-light": "#F0D78C",

@@ -6,7 +6,7 @@ import { cookies } from "next/headers"
 // This is a simple solution for demonstration purposes
 const ADMIN_CREDENTIALS = {
   username: "admin",
-  password: "studio39salon",
+  password: "alfahive",
 }
 
 // Manager accounts would be stored in a database in a real application

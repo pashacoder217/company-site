@@ -9,12 +9,12 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-studio-gold text-studio-black hover:bg-studio-gold-light",
+        default: "bg-af-gold text-af-black hover:bg-af-gold-light",
         destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        outline: "border border-studio-gold bg-transparent text-studio-gold hover:bg-studio-gold/10",
-        secondary: "bg-studio-black text-studio-gold hover:bg-gray-900 border border-studio-gold/50",
+        outline: "border border-af-gold bg-transparent text-af-gold hover:bg-af-gold/10",
+        secondary: "bg-af-black text-af-gold hover:bg-gray-900 border border-af-gold/50",
         ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-studio-gold underline-offset-4 hover:underline",
+        link: "text-af-gold underline-offset-4 hover:underline",
       },
       size: {
         default: "h-10 px-4 py-2",
@@ -45,8 +45,8 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
           buttonVariants({ variant, size, className }),
           "shadow-md hover:shadow-lg transition-all duration-300 font-semibold",
           {
-            "bg-gold-gradient text-studio-black hover:bg-gold-gradient-dark": variant === "default",
-            "bg-studio-black text-studio-gold border border-studio-gold/50 hover:bg-gray-900": variant === "secondary",
+            "bg-gold-gradient text-af-black hover:bg-gold-gradient-dark": variant === "default",
+            "bg-af-black text-af-gold border border-af-gold/50 hover:bg-gray-900": variant === "secondary",
           },
         )}
         ref={ref}
