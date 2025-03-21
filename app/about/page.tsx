@@ -16,7 +16,7 @@ const teammember  = [
   },
   {
     avatar:"https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/avatar/1516315631331-kfbWr7TRXRWweseSmdCw0cncBXobOv.jpg",
-    name: "Toni Johnson",
+    name: "Michael Johnson",
     position:"CTO"
   }
 ]

@@ -24,7 +24,7 @@ export default function Footer() {
             <p className="text-gray-400 mb-6">
               We specialize in AI consulting, custom software development, and comprehensive technology solutions!
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a
                 href="https://instagram.com"
                 target="_blank"
@@ -49,7 +49,7 @@ export default function Footer() {
               >
                 <Twitter className="h-6 w-6" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}

@@ -8,8 +8,8 @@ interface ServiceProps {
     id: string
     name: string
     description: string
-    price: number
-    duration: string
+    // price: number
+    // duration: string
     image: string
   }
 }
@@ -31,7 +31,7 @@ export default function ServiceCard({ service }: ServiceProps) {
         <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">{service.name}</h3>
         <p className="text-gray-600 mb-4">{service.description}</p>
 
-        <div className="flex justify-between items-center mb-4">
+        {/* <div className="flex justify-between items-center mb-4">
           <div className="flex items-center text-primary font-semibold">
             <IndianRupee className="h-4 w-4 mr-1" />
             <span>{service.price}</span>
@@ -41,14 +41,14 @@ export default function ServiceCard({ service }: ServiceProps) {
             <Clock className="h-4 w-4 mr-1" />
             <span>{service.duration}</span>
           </div>
-        </div>
+        </div> */}
 
-        <Button
+        {/* <Button
           asChild
           className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-full shadow-md"
         >
           <Link href={`/booking?service=${encodeURIComponent(service.name)}`}>Book Now</Link>
-        </Button>
+        </Button> */}
       </div>
     </div>
   )
