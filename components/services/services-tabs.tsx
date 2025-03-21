@@ -3,11 +3,11 @@
 import { useState } from "react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import ServiceCard from "@/components/services/service-card"
-import { UserIcon as Male, UserIcon as Female, Users } from "lucide-react"
+import { AlignJustify, FolderCode, CloudCog, Brain } from "lucide-react"
 
 // Service data
 const services = {
-  men: [
+  ai: [
     {
       id: "m1",
       name: "Men's Haircut",
@@ -45,7 +45,7 @@ const services = {
         "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
   ],
-  women: [
+  software: [
     {
       id: "w1",
       name: "Women's Haircut",
@@ -83,7 +83,7 @@ const services = {
         "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/service-DbYvgvKv6ZZ7bSe0KkmeAeB06mJCAZ.jpg",
     },
   ],
-  unisex: [
+  cloud: [
     {
       id: "u1",
       name: "Hair Spa Treatment",
@@ -129,7 +129,7 @@ export default function ServicesTabs() {
   // Filter services based on active tab
   const getFilteredServices = () => {
     if (activeTab === "all") {
-      return [...services.men, ...services.women, ...services.unisex]
+      return [...services.ai, ...services.software, ...services.cloud]
     }
     return services[activeTab as keyof typeof services] || []
   }
@@ -140,19 +140,19 @@ export default function ServicesTabs() {
         <div className="flex justify-center mb-8">
           <TabsList className="bg-muted/50">
             <TabsTrigger value="all" className="flex items-center gap-2">
-              <Users className="h-4 w-4" />
+              <AlignJustify className="h-4 w-4" />
               <span>All</span>
             </TabsTrigger>
             <TabsTrigger value="men" className="flex items-center gap-2">
-              <Male className="h-4 w-4" />
+              <Brain className="h-4 w-4" />
               <span>AI</span>
             </TabsTrigger>
             <TabsTrigger value="women" className="flex items-center gap-2">
-              <Female className="h-4 w-4" />
+              <FolderCode className="h-4 w-4" />
               <span>Software</span>
             </TabsTrigger>
             <TabsTrigger value="unisex" className="flex items-center gap-2">
-              <Users className="h-4 w-4" />
+              <CloudCog className="h-4 w-4" />
               <span>Cloud</span>
             </TabsTrigger>
           </TabsList>
@@ -168,7 +168,7 @@ export default function ServicesTabs() {
 
         <TabsContent value="men" className="mt-0">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.men.map((service) => (
+            {services.ai.map((service) => (
               <ServiceCard key={service.id} service={service} />
             ))}
           </div>
@@ -176,7 +176,7 @@ export default function ServicesTabs() {
 
         <TabsContent value="women" className="mt-0">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.women.map((service) => (
+            {services.software.map((service) => (
               <ServiceCard key={service.id} service={service} />
             ))}
           </div>
@@ -184,7 +184,7 @@ export default function ServicesTabs() {
 
         <TabsContent value="unisex" className="mt-0">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.unisex.map((service) => (
+            {services.cloud.map((service) => (
               <ServiceCard key={service.id} service={service} />
             ))}
           </div>

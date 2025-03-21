@@ -1,5 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
+import Head from 'next/head';
 import { Playfair_Display, Montserrat } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/layout/header"
@@ -42,6 +43,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body className={`${playfair.variable} ${montserrat.variable} font-sans bg-studio-black text-white`}>
         <GoogleAnalytics />
         <Header />

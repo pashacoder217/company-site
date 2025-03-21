@@ -8,6 +8,19 @@ export const metadata: Metadata = {
   description: "Learn about Alfahive, a leading provider of AI, software, and cloud solutions. Our team is dedicated to delivering innovative and secure technology services that help businesses grow and thrive in the digital era.",
 }
 
+const teammember  = [
+  {
+    avatar:"https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/1712130683067-MGsi1ZBnFfO4KqkEVVlRJqLVkmb18W.jpg",
+    name: "Joseph Fennell",
+    position:"CEO"
+  },
+  {
+    avatar:"https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/avatar/1516315631331-kfbWr7TRXRWweseSmdCw0cncBXobOv.jpg",
+    name: "Toni Johnson",
+    position:"CTO"
+  }
+]
+
 export default function AboutPage() {
   return (
     <>
@@ -46,38 +59,34 @@ export default function AboutPage() {
         <div className="text-center mb-20">
           <h2 className="heading-lg mb-6">Our Mission</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            At Glow Salon, our mission is to enhance the natural beauty of every client, boost their confidence, and
-            provide a relaxing and rejuvenating experience that leaves them feeling refreshed and radiant.
+            At Alfahive, our mission is to empower businesses with cutting-edge AI, software, and cloud solutions, transforming ideas into scalable, high-performance technology. We strive to drive innovation, enhance efficiency, and create a future where technology fuels limitless growth.
           </p>
         </div>
 
         <div className="mb-20">
-          <h2 className="heading-lg text-center mb-12">Meet Our Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?w=300&h=300&fit=crop&crop=faces&auto=format&q=80",
-              "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=300&fit=crop&crop=faces&auto=format&q=80",
-              "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=300&fit=crop&crop=faces&auto=format&q=80",
-            ].map((image, index) => (
-              <div key={index} className="salon-card text-center p-6">
-                <div className="relative w-40 h-40 rounded-full overflow-hidden mx-auto mb-4">
-                  <Image src={image || "/placeholder.svg"} alt={`Stylist ${index + 1}`} fill className="object-cover" />
+          <h2 className="heading-lg text-center mb-12">Our Team</h2>
+          <div className="flex justify-around gap-20">
+            {
+              teammember.map((member, index) => (
+                <div key={index} className="salon-card text-center px-20 py-10">
+                  <div className="relative w-40 h-40 rounded-full overflow-hidden mx-auto mb-4">
+                    <Image src={member.avatar} alt={`Stylist ${index + 1}`} fill className="object-cover" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
+                  <p className="text-gray-400 mb-4 font-bold">{member.position}</p>
+                  {/* <Link href="/booking" className="text-primary hover:text-primary-dark transition-colors">
+                    Book with this stylist
+                  </Link> */}
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Stylist Name</h3>
-                <p className="text-gray-600 mb-4">Expert in haircuts, coloring, and styling</p>
-                <Link href="/booking" className="text-primary hover:text-primary-dark transition-colors">
-                  Book with this stylist
-                </Link>
-              </div>
-            ))}
+              ))
+            }
           </div>
         </div>
 
         <div className="text-center">
           <h2 className="heading-lg mb-6">Experience the Glow Difference</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            We invite you to visit Glow Salon and experience our commitment to beauty, style, and exceptional service
-            firsthand.
+            We invite you to visit AlfaHive and experience our commitment to AI, software, and cloud solutions.
           </p>
           <Button asChild size="lg">
             <Link href="/booking">Book Your Appointment Today</Link>

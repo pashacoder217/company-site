@@ -51,21 +51,12 @@ const timeSlots = [
   "11:00 AM",
   "11:30 AM",
   "12:00 PM",
-  "12:30 PM",
-  "1:00 PM",
-  "1:30 PM",
   "2:00 PM",
-  "2:30 PM",
   "3:00 PM",
   "3:30 PM",
   "4:00 PM",
   "4:30 PM",
   "5:00 PM",
-  "5:30 PM",
-  "6:00 PM",
-  "6:30 PM",
-  "7:00 PM",
-  "7:30 PM",
 ]
 
 export default function BookingForm() {
@@ -184,7 +175,7 @@ export default function BookingForm() {
                 </div>
               </div>
 
-              <div>
+              {/* <div>
                 <Label htmlFor="service">Select Service</Label>
                 <Select value={selectedService} onValueChange={setSelectedService} required>
                   <SelectTrigger id="service" className="border-gray-300 focus:border-primary focus:ring-primary">
@@ -203,7 +194,7 @@ export default function BookingForm() {
                     ))}
                   </SelectContent>
                 </Select>
-              </div>
+              </div> */}
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>

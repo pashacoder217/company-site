@@ -18,11 +18,11 @@ export default function CTASection() {
           </p>
         </div>
 
-        <div className="mb-12 studio39-card p-1">
+        {/* <div className="mb-12 studio39-card p-1">
           <LocationMap />
-        </div>
+        </div> */}
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <h3 className="text-2xl font-bold mb-4 text-white font-playfair">Ready to Experience Studio 39?</h3>
           <p className="text-gray-400 max-w-2xl mx-auto mb-8">
             Book your appointment today and let our expert stylists help you look and feel your best.
@@ -34,7 +34,7 @@ export default function CTASection() {
           >
             <Link href="/booking">Book Your Appointment Now</Link>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   )

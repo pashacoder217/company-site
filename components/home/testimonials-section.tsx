@@ -7,42 +7,42 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react"
 const testimonials = [
   {
     id: 1,
-    name: "Priya Sharma",
+    name: "John L.",
     role: "Regular Customer",
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces&auto=format&q=60",
     quote:
-      "I've been coming to Studio 39 for over a year now, and I'm always impressed with their hair coloring services. The stylists understand exactly what I want!",
+      "Working with AlfaHive was a game-changer for our business. Their expertise in AI and cloud solutions helped us streamline our operations and enhance our customer experience. The team was professional, responsive, and delivered results beyond our expectations. We’re now more efficient and future-ready thanks to AlfaHive's innovative solutions.",
     rating: 5,
   },
   {
     id: 2,
-    name: "Rohan Mehta",
+    name: "Michael R",
     role: "First-time Customer",
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces&auto=format&q=60",
     quote:
-      "Best haircut ever! The stylist took time to understand what I wanted and gave great suggestions. Will definitely be coming back.",
+      "AlfaHive transformed our software development process. Their custom software development team worked closely with us to create a solution tailored to our unique needs. The integration of AI technology made a significant impact on our business, enabling us to make data-driven decisions and improve productivity. We highly recommend them to anyone looking for top-notch tech solutions.",
     rating: 5,
   },
   {
     id: 3,
-    name: "Ananya Patel",
+    name: "Toni S.",
     role: "Regular Customer",
     image:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=faces&auto=format&q=60",
     quote:
-      "Loved the nail art! The technicians are so creative and detail-oriented. My nails have never looked better.",
-    rating: 4,
+      "We’ve partnered with AlfaHive for our cloud migration, and the experience has been exceptional. From the initial consultation to the final deployment, they provided us with clear insights and a seamless transition to the cloud. Their expertise, attention to detail, and commitment to our success made them an invaluable partner in our journey",
+    rating: 5,
   },
   {
     id: 4,
-    name: "Vikram Singh",
+    name: "James T",
     role: "Monthly Customer",
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=faces&auto=format&q=60",
     quote:
-      "As a man who cares about grooming, I appreciate that this salon caters to both men and women. Great beard trimming and facial services!",
+      "AlfaHive’s team truly understands AI and its potential to drive innovation. They helped us integrate AI-powered solutions that enhanced our product offerings, increased our efficiency, and gave us a competitive edge in the market. Their professionalism, dedication, and expertise make them a trusted partner.",
     rating: 5,
   },
 ]

@@ -1,25 +1,25 @@
 import Image from "next/image"
-import { Users, Award, Sparkles } from "lucide-react"
+import { Users, Award, Sparkles, FolderCode, CloudCog, Brain  } from "lucide-react"
 
 const features = [
   {
-    icon: <Users className="h-8 w-8 text-studio-gold" />,
-    title: "Expert Stylists",
-    description: "Our team of certified professionals brings years of experience and creativity to every service.",
+    icon: <Brain className="h-8 w-8 text-studio-gold" />,
+    title: "AI Strategy & Consulting",
+    description: "Our AI strategy and consulting services help businesses unlock the full potential of artificial intelligence. We guide you through the process of identifying AI opportunities, designing tailored strategies, and implementing intelligent solutions that drive innovation and growth. By combining industry expertise with advanced AI technologies, we help you integrate AI seamlessly into your operations, enhancing decision-making, automation, and efficiency for long-term success.",
     image:
       "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/pngtree-business-people-in-a-meeting-at-office-person-success-conference-photo-image_42384800-wWGruFRYMKsv8MyPoXMF92yLJYmKfA.jpg",
   },
   {
-    icon: <Award className="h-8 w-8 text-studio-gold" />,
-    title: "Premium Products",
-    description: "We use only the highest quality, luxurious products to ensure the best results for our clients.",
+    icon: <FolderCode className="h-8 w-8 text-studio-gold" />,
+    title: "Custom Software Development",
+    description: "Our custom software development services are designed to create tailored solutions that meet your unique business needs. We work closely with you to understand your goals, providing end-to-end development—from design and architecture to deployment and maintenance. By leveraging the latest technologies, we ensure scalable, secure, and high-performance software that aligns with your vision, driving efficiency and growth for your business.",
     image:
       "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/images%20%282%29-qwXLIcOJ5haCYQ0WjagwKtV9yC1e4k.jpg",
   },
   {
-    icon: <Sparkles className="h-8 w-8 text-studio-gold" />,
-    title: "Personalized Experience",
-    description: "Enjoy a tailored approach to beauty, with services customized to your unique style and needs.",
+    icon: <CloudCog className="h-8 w-8 text-studio-gold" />,
+    title: "Cloud Solutions",
+    description: "Our cloud solutions are designed to help businesses scale, innovate, and optimize their operations by leveraging the power of the cloud. We provide end-to-end cloud services, including cloud migration, infrastructure management, and security, ensuring seamless integration with your existing systems. With flexible, secure, and cost-efficient solutions, we enable businesses to enhance collaboration, improve performance, and drive growth through the agility and scalability of cloud technology.",
     image:
       "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/images%20%283%29-rrFdmkGMp8tRScNjkookuLPG3DBRhz.jpg",
   },

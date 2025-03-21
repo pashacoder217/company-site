@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail, Clock, Scissors } from "lucide-react"
 
 export default function Footer() {
@@ -9,10 +10,16 @@ export default function Footer() {
           {/* About Studio 39 Salon */}
           <div>
             <div className="flex items-center mb-6">
-              <div className="w-10 h-10 bg-studio-gold rounded-full flex items-center justify-center mr-3">
-                <Scissors className="h-5 w-5 text-studio-black" />
-              </div>
-              <span className="text-2xl font-bold gradient-text font-playfair">AlfaHive</span>
+              {/* <div className="w-10 h-10 bg-studio-gold rounded-full flex items-center justify-center mr-3"> */}
+                <Image
+                  src="https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/alfahive_logo-or8Nx7fB7ktxPUjhTAmoMamwt8sWzz.png"
+                  alt="Studio 39 Salon Logo"
+                  width={30}
+                  height={30}
+                  className="rounded-full object-cover"
+                />
+              {/* </div> */}
+              <span className="ml-2 text-2xl font-bold gradient-text font-playfair">AlfaHive</span>
             </div>
             <p className="text-gray-400 mb-6">
               We specialize in AI consulting, custom software development, and comprehensive technology solutions!
@@ -147,11 +154,11 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} AlfaHive. All rights reserved.</p>
+          <p>&copy; 2020 - {new Date().getFullYear()} AlfaHive. All rights reserved.</p>
           <p className="mt-2">
-            <span className="inline-block">Made in US</span>
-            <span className="mx-2">|</span>
             <span className="inline-block">AlfaHive</span>
+            <span className="mx-2">|</span>
+            <span className="inline-block">AI, Software Agency Company</span>
           </p>
         </div>
       </div>
