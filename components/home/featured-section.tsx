@@ -51,7 +51,7 @@ export default function WhyChooseUsSection() {
                   </div>
                 </div>
               </div>
-              <div className="p-6">
+              <div className="p-6 z-100">
                 <p className="text-gray-600">{feature.description}</p>
               </div>
             </div>

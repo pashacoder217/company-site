@@ -24,7 +24,7 @@ export default function ServiceCard({ service }: ServiceProps) {
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent transition-transfor duration-500 group-hover:scale-105"></div>
       </div>
 
       <div className="p-6">

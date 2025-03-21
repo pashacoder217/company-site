@@ -75,7 +75,7 @@ export default function HeroSection() {
             </div>
             <div>
               <div className="text-af-gold flex text-2xl">{"★★★★★"}</div>
-              <p className="text-sm text-gray-300">Trusted by 10,000+ happy clients</p>
+              <p className="text-sm text-gray-300">Trusted by 500+ happy clients</p>
             </div>
           </div>
         </div>

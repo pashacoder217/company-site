@@ -10,7 +10,7 @@ const testimonials = [
     name: "John L.",
     role: "Regular Customer",
     image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces&auto=format&q=60",
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/avatar/1728333244086-3UnwURceT7LADyLiUW7SRQp8ywbxLN.jpg",
     quote:
       "Working with AlfaHive was a game-changer for our business. Their expertise in AI and cloud solutions helped us streamline our operations and enhance our customer experience. The team was professional, responsive, and delivered results beyond our expectations. We’re now more efficient and future-ready thanks to AlfaHive's innovative solutions.",
     rating: 5,
@@ -30,7 +30,7 @@ const testimonials = [
     name: "Toni S.",
     role: "Regular Customer",
     image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=faces&auto=format&q=60",
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/avatar/1516610102558-SrNVFuFLlrKVCYZMcIPvO8VBgxi5hn.jpg",
     quote:
       "We’ve partnered with AlfaHive for our cloud migration, and the experience has been exceptional. From the initial consultation to the final deployment, they provided us with clear insights and a seamless transition to the cloud. Their expertise, attention to detail, and commitment to our success made them an invaluable partner in our journey",
     rating: 5,

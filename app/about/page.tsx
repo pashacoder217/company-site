@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const teammember  = [
   {
-    avatar:"https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/1712130683067-MGsi1ZBnFfO4KqkEVVlRJqLVkmb18W.jpg",
+    avatar:"https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/avatar/1712130683067-YETvW5Y0bMBBK9ZZyrCbStEMT73edy.jpg",
     name: "Joseph Fennell",
     position:"CEO"
   },

@@ -14,14 +14,14 @@ const features = [
     title: "Custom Software Development",
     description: "Our custom software development services are designed to create tailored solutions that meet your unique business needs. We work closely with you to understand your goals, providing end-to-end development—from design and architecture to deployment and maintenance. By leveraging the latest technologies, we ensure scalable, secure, and high-performance software that aligns with your vision, driving efficiency and growth for your business.",
     image:
-      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/images%20%282%29-qwXLIcOJ5haCYQ0WjagwKtV9yC1e4k.jpg",
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/Custom-Software-Development-1024x538-1-BfuifJsK5qhJhl5KVQMdM9krBX9C8o.webp",
   },
   {
     icon: <CloudCog className="h-8 w-8 text-af-gold" />,
     title: "Cloud Solutions",
     description: "Our cloud solutions are designed to help businesses scale, innovate, and optimize their operations by leveraging the power of the cloud. We provide end-to-end cloud services, including cloud migration, infrastructure management, and security, ensuring seamless integration with your existing systems. With flexible, secure, and cost-efficient solutions, we enable businesses to enhance collaboration, improve performance, and drive growth through the agility and scalability of cloud technology.",
     image:
-      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/images%20%283%29-rrFdmkGMp8tRScNjkookuLPG3DBRhz.jpg",
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/businessman-use-laptops-concept-storing-data-networks-intelligent-systems-clouds-computing-futuristic-digital-screen-154551090-7fUTdarvA4F1dN1qIS4raS80gYVnFT.webp",
   },
 ]
 
@@ -46,7 +46,7 @@ export default function WhyChooseUsSection() {
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-af-black/90 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-af-black/90 to-transparent transition-transform duration-300 group-hover:scale-105"></div>
                 <div className="absolute bottom-4 left-4 right-4">
                   <div className="flex items-center">
                     <div className="p-2 bg-af-black/90 border border-af-gold/30 rounded-full mr-3">

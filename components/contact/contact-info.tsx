@@ -38,7 +38,7 @@ export default function ContactInfo() {
           <div>
             <h3 className="font-semibold mb-1">Business Hours</h3>
             <div className="text-gray-600">
-              <p>Monday - Friday: 10:00 AM - 8:00 PM</p>
+              <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
             </div>
           </div>
         </div>
