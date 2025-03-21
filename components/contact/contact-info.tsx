@@ -44,7 +44,7 @@ export default function ContactInfo() {
         </div>
       </div>
 
-      <div className="mt-8 pt-6 border-t border-gray-100">
+      {/* <div className="mt-8 pt-6 border-t border-gray-100">
         <h3 className="font-semibold mb-3">Connect With Us</h3>
         <div className="flex space-x-4">
           <a
@@ -75,7 +75,7 @@ export default function ContactInfo() {
             <Twitter className="h-5 w-5" />
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
