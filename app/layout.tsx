@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://alfahive.net/favicon.ico" />
         <script
             src={`https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap`}
             defer
