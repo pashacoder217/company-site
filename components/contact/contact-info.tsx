@@ -13,7 +13,7 @@ export default function ContactInfo() {
           <MapPin className="h-6 w-6 text-primary shrink-0 mt-0.5 mr-3" />
           <div>
             <h3 className="font-semibold mb-1">Address</h3>
-            <p className="text-gray-600">Miami, FL 33131, USA</p>
+            <p className="text-gray-600">Miami, FL, USA</p>
           </div>
         </div>
 

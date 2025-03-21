@@ -96,7 +96,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-6 w-6 text-af-gold shrink-0 mt-0.5 mr-3" />
-                <span className="text-gray-400">Miami, FL 33131, USA</span>
+                <span className="text-gray-400">Miami, FL, USA</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-6 w-6 text-af-gold mr-3" />

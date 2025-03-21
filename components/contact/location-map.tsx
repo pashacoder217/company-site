@@ -10,7 +10,7 @@ export default function LocationMap() {
           <MapPin className="h-8 w-8 text-af-gold" />
         </div>
         <h3 className="text-xl font-bold text-white mb-2">AlfaHive</h3>
-        <p className="text-gray-400 mb-4">Miami, FL 33131, USA</p>
+        <p className="text-gray-400 mb-4">Miami, FL, USA</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 w-full max-w-md">
           <div className="flex items-center">
